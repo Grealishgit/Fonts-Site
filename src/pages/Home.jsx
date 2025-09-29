@@ -11,7 +11,7 @@ const Home = () => {
                     <p className='text-xl md:text-xl text-white mb-8'>Empower developers to create intlligent, fast, and scalable websites using <br />
                         cutting-edgedAI tools designed for modern web development.</p>
 
-                    <div className='flex space-x-6 mb-8'>
+                    <div className='flex  md:space-x-6 gap-2 mb-8'>
                         <div className='bg-white/15 rounded-full backdrop-blur-md px-4 py-1'>
                             <p className='text-white'>Instant Results</p>
                         </div>
