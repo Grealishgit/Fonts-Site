@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* @font-face {
+  font-family: 'ZoloRegular';
+  src: url('./assets/fonts/ZoloRegular-BLrp8.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Vionie';
+  src: url('./assets/fonts/Vionie.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Vionie',
+    sans-serif;
+}
