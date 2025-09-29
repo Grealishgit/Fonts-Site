@@ -1,16 +1,17 @@
 import React from 'react'
 import bg from '../src/assets/font-taste.jpg'
+import Navbar from './components/Navbar'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
 
 const App = () => {
   return (
-    <div className='h-screen w-screen flex justify-center items-center bg-gray-100'
-      style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
-    >
-      <div className='text-center bg-black/30 backdrop-blur-xs bg-opacity-40 p-10 rounded'>
-        <h1 className='text-white font-bold md:text-[90px] text-[40px] capitalize'>Welcome to Paradise!</h1>
-        <p className='text-2xl text-orange-400 font-semibold  bg-opacity-50 rounded'>Where the beauty of nature meets the elegance of design.</p>
-      </div>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </>
   )
 }
 
